@@ -108,8 +108,11 @@ cd task-manager
 ### 2️⃣ Backend setup
 
 
-cd backend
+cd Backend
+
 npm install
+
+
 npm run dev
 
 
@@ -118,9 +121,11 @@ npm run dev
 ### 3️⃣ Frontend setup
 
 
-cd frontend
+cd Frontend
+
 npm install
-npm run dev
+
+npm start
 
 
 ---

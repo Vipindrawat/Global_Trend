@@ -18,6 +18,11 @@ const TaskSchema = new mongoose.Schema({
         enum: ["pending", "completed"],
         default: "pending"
     },
+    completed: {
+        type: Boolean,
+        default: false
+    }
+
 },
     {
         timestamps: true

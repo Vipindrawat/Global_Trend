@@ -66,6 +66,8 @@ router.put('/updateTask/:id', async (req, res) => {
         if (req.body.title?.trim()) task.title = req.body.title.trim();
         if (req.body.description?.trim()) task.description = req.body.description.trim();
         if (req.body.status?.trim()) task.status = req.body.status.trim();
+        if (req.body.completed) task.completed = req.body.completed;
+
 
         await task.save();
         res.status(200).json({ success: true })

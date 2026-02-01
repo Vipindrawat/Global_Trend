@@ -140,11 +140,11 @@ npm run dev
 | Method | Endpoint | Description |
 |------|--------|-------------|
 | POST | `/api/auth/register` | Register user |
-| POST | `/api/auth/login` | Login user |
+| POST | `/api/auth/signin` | Login user |
 | GET | `/api/task/myTasks` | Get user tasks |
-| POST | `/api/task/add` | Add new task |
-| PUT | `/api/task/update/:id` | Update task |
-| DELETE | `/api/task/delete/:id` | Delete task |
+| POST | `/api/task/addTask` | Add new task |
+| PUT | `/api/task/updateTask/:id` | Update task |
+| DELETE | `/api/task/deleteTask/:id` | Delete task |
 
 ---
 ## 📌 Future Improvements

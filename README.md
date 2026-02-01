@@ -4,6 +4,17 @@ A full-stack **Task Management App** that allows users to register, log in, and 
 
 ---
 
+## Live Demo
+### Frontend: https://global-trend-frontend.onrender.com
+### Backend:  https://global-trend-backend-xp5s.onrender.com
+.
+### Test Signin Credential :
+#### Email: vipin@gmail.com
+#### Password: vipin
+or
+#### Email: mayank@gmail.com
+#### Password: mayank
+
 ## 🚀 Features
 
 - 🔐 User Authentication (JWT-based)
@@ -87,7 +98,7 @@ VITE_API_URL=http://localhost:5000
 ### 1️⃣ Clone the repository
 
 
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/Vipindrawat/Global_Trend.git
 
 cd task-manager
 
